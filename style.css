@@ -1,0 +1,32 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    height: 72px;
+    background: rgb(2, 13, 63);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background: rgb(158, 176, 233);
+}
