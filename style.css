@@ -87,8 +87,7 @@ img {
 
 button {
     font-family: Roboto, sans-serif;
-    border: none;
-    
+    border: none;    
     border-radius: 8px;
     background: #3882f6;
     padding: 10px 14px;
@@ -98,10 +97,6 @@ button {
     font-weight: bold;
     border-color: #e5e7eb;
 }
-
-/* .cards-section{
-    background-color: #e5e7eb;
-  } */
 
 .quote {
     background-color: #e5e7eb;
@@ -128,7 +123,7 @@ button {
 }
 
 .action-title {
-    color: #e5e7eb;
+    color: white;
     font-size: 24px;
     font-weight: bold;
 }
@@ -151,4 +146,48 @@ button {
 
 .action-button{
     border: 3px solid white;
+}
+
+.card-title{
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: 800;
+    
+}
+
+.cards-box{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    margin: 8px 16px;
+    padding: 16px;
+    width: 110px;
+    height: 120px;
+  }
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+}  
+
+.one-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text{
+    width: 150px;
+    display: flex;
+    text-align: center;
+    color: #1F2937;
 }
