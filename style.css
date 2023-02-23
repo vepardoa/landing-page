@@ -58,14 +58,14 @@ a {
 
 img{
     width: 900px;
-    height: 200px;
+    height: 220px;
     display: flex;
 }
 
 .box-title{
     color: #f9faf8;
-    font-size: 38px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 700;
     display: flex;
 }
 
@@ -97,6 +97,21 @@ button {
     font-weight: bold;
   }
 
-  .cards-section{
+  /* .cards-section{
     background-color: #e5e7eb;
+  } */
+
+  .quote{
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 36px;
+    padding: 100px 250px;
+    color: #1F2937;
+  }
+
+  .cite{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
   }
