@@ -23,64 +23,64 @@ a {
     display: flex;
 }
 
-.head-logo{
+.head-logo {
     font-size: 24px;
     font-weight: bold;
     display: flex;
 }
 
-.links{
+.links {
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
     gap: 16px;
 }
 
-.header-bar{
+.header-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 0;
 }
 
-.header{
+.header {
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center;
     padding: 0 150px;
     height: auto;
 }
 
-.footer{
+.footer {
     align-items: center;
     justify-content: center;
-    height: 72px; 
+    height: 72px;
 }
 
-img{
+img {
     width: 900px;
     height: 220px;
     display: flex;
 }
 
-.box-title{
+.box-title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 700;
     display: flex;
 }
 
-.box-text{
+.box-text {
     font-size: 18px;
     display: flex;
     margin: 10px 0;
 }
 
-.box{
+.box {
     flex-direction: column;
     display: flex;
 }
 
-.head-box{
+.head-box {
     padding: 120px 0;
     display: flex;
 }
@@ -88,6 +88,7 @@ img{
 button {
     font-family: Roboto, sans-serif;
     border: none;
+    
     border-radius: 8px;
     background: #3882f6;
     padding: 10px 14px;
@@ -95,23 +96,59 @@ button {
     width: 150px;
     font-size: 18px;
     font-weight: bold;
-  }
+    border-color: #e5e7eb;
+}
 
-  /* .cards-section{
+/* .cards-section{
     background-color: #e5e7eb;
   } */
 
-  .quote{
+.quote {
     background-color: #e5e7eb;
     font-style: italic;
     font-size: 36px;
     padding: 100px 250px;
     color: #1F2937;
-  }
+}
 
-  .cite{
+.cite {
     font-size: 24px;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
-  }
+}
+
+.action-container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-title {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.call-action {
+    padding: 100px 150px;
+    display: flex;
+
+}
+
+.action-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-button{
+    border: 3px solid white;
+}
